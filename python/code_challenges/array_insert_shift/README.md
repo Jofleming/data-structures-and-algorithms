@@ -3,7 +3,7 @@ The challenge is to make a function that takes in a list and an intenger to be i
 
 ## Whiteboard Process
 
-![Whiteboarding Process](array_insert_shift/Code Challenges & Whiteboards.jpg)
+![Whiteboarding Process](array_insert_shift/array-shift.jpg)
 
 ## Approach & Efficiency
 
