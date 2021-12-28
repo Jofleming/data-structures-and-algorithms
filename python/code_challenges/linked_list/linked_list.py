@@ -1,5 +1,3 @@
-from typing import Counter
-
 class Node:
     def __init__(self, value, next=None):
         self.value = value
@@ -35,4 +33,20 @@ class LinkedList:
             current = current.next
         output_string = output_string + 'NULL'
         return output_string
+
+    def kth_from_end(self, k):
+        if k <= 0:
+            raise Exception
+        length = 0
+        current = self.head
+        while current.next:
+            length += 1
+            current = current.next
+        n = length - k
+        if n < 0:
+            raise Exception
+        new_current = self.head
+        for _ in range(n):
+            new_current = new_current.next
+        return new_current.value
 
