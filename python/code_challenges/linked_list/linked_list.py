@@ -10,8 +10,8 @@ class LinkedList:
     Creates a node based list which contains values and references to the following node
     """
 
-    def __init__(self):
-        self.head = None
+    def __init__(self, head=None):
+        self.head = head
 
     def insert(self, value):
         node = Node(value)
