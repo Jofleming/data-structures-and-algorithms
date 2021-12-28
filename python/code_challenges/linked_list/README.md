@@ -8,3 +8,6 @@ Implement a linked list which includes a Node class. This must be able to contai
 
 ## Pull Request list:
 https://github.com/Jofleming/data-structures-and-algorithms/pull/18
+
+kth from end PR: https://github.com/Jofleming/data-structures-and-algorithms/pull/19
+![kthwhiteboard](code_challenges/linked_list/kth-whiteboard.jpg)
