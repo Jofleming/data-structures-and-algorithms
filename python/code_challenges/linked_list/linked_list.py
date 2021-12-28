@@ -4,9 +4,9 @@ class Node:
         self.next = next
 
 class LinkedList:
-    """
+    '''
     Creates a node based list which contains values and references to the following node
-    """
+    '''
 
     def __init__(self, head=None):
         self.head = head
@@ -34,6 +34,9 @@ class LinkedList:
         output_string = output_string + 'NULL'
         return output_string
 
+    '''
+    Searches for the node k spaces away from the tail and returns the value in that node.
+    '''
     def kth_from_end(self, k):
         if k <= 0:
             raise Exception
